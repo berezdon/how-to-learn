@@ -1,9 +1,6 @@
 .cards {
   display: grid;
-  column-gap: 100px;
-  grid-template-columns: repeat(auto-fill, 240px);
-  display: -ms-grid;
-  -ms-grid-rows: auto;
-  -ms-grid-columns: 240px 240px 240px;;
   width: 920px;
+  gap: 0 100px;
+  grid-template-columns: repeat(auto-fill, 240px);
 }
