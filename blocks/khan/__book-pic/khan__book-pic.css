@@ -1,6 +1,17 @@
 .khan__book-pic {
+  /* Способ для img, но не работает в IE, поэтому с фоном кросбраузернее, но если alt
+  обязательен, то тогда придется использовать img
   object-fit: cover;
   object-position: top;
+  height: 608px; - удалить, его прописываю в khan__book-container
+  все background - удалить, вместо div в html сделать img*/
+  background-image: url("../../../images/khan-book.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: top;
   width: 620px;
+  height: 608px;
   margin: 0 48px 0 0;
 }
