@@ -19,3 +19,4 @@
 * iframe
 * Трансформация элементов при помощи CSS
 * Анимация элементов при помощи CSS
+* Ссылка на сайт  https://berezdon.github.io/how-to-learn/index.html
